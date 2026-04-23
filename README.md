@@ -1,5 +1,7 @@
 # kr-forensic-core
 
+**[Read the full write-up →](https://ronanwrites.vercel.app/manuals/forensic-platform-architecture)**
+
 Shared constants, schemas, and path conventions for the Korean forensic accounting ecosystem.
 
 Zero external dependencies. Auto-installs as a transitive dependency of:
@@ -19,5 +21,5 @@ from kr_forensic_core.schemas import BENEISH_SCORES_COLUMNS
 ## Install
 
 ```bash
-pip install kr-forensic-core
+uv add git+https://github.com/pon00050/kr-forensic-core
 ```

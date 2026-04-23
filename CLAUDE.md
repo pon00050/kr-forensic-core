@@ -30,3 +30,8 @@ Three modules in `kr_forensic_core/`:
 | Gap | Why | Status |
 |-----|-----|--------|
 | No validation of `KRFF_DATA_DIR` path on startup | Low priority — consuming repos validate parquet existence themselves | By design |
+
+
+---
+
+**Domain knowledge** (regulatory analysis, buyer research, competitive intelligence, legal compliance) belongs in the hub vault: `forensic-accounting-toolkit/knowledge/`. Engineering docs (API patterns, test strategies, run logs) stay here. After creating a new domain knowledge note, copy it to the hub with gold-standard frontmatter. See hub `CLAUDE.md` §Knowledge Vault for the frontmatter contract.
